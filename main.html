@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Writing Goal Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calendar-container">
+            <div class="calendar-controls">
+                <button class="control-button" onclick="changeMonth(-1)">&#8249;</button>
+                <h3 id="currentMonthYear" class="current-month-year"></h3>
+                <button class="control-button" onclick="changeMonth(1)">&#8250;</button>
+            </div>
+            <div class="calendar" id="calendar"></div>
+        </div>
+
+        <div class="task-container">
+            <div id="selectedDateDisplay" class="selected-date-display"></div>
+            <h2>Daily Writing Goal Tracker</h2>
+            <textarea id="taskInput" placeholder="Write your goal or task for the day..."></textarea>
+            <button onclick="saveTask()">Save Task</button>
+            <ul id="taskList" class="task-list"></ul>
+            <button class="show-all-button" onclick="showAllTasks()">Show All Tasks</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
