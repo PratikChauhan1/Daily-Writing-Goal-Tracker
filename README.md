@@ -21,9 +21,7 @@ Daily Writing Goal Tracker is a simple and efficient tool to help users set, tra
 4. Your goals will be saved automatically in local storage.
 
 ## Live Demo
-🔗 [Try the Daily Writing Goal Tracker here](https://daily-writing-goal-tracker-lyart.vercel.app/)
-
-> Replace the link above with your actual deployment URL (e.g., GitHub Pages, Netlify, Vercel, etc.)
+🔗 Daily Writing Goal Tracker here](https://daily-writing-goal-tracker-lyart.vercel.app/)
 
 ## Future Improvements
 - Daily reminders and progress tracking.
